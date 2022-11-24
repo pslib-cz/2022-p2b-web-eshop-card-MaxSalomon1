@@ -1,0 +1,70 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+a > img {
+    max-width: 100%;
+}
+
+.infobox {
+    width: 280px;
+    height: auto;
+}
+
+.infobox__header {
+    position: relative;
+}
+
+.infobox_cta_akce {
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    background-color: indianred;
+    padding: 0.5em 1em;
+    font-size: medium;
+}
+
+.infobox__text {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.infobox_cta_price {
+    font-weight: bold;
+}
+
+.infobox__cta__discount2 {
+    text-decoration: line-through;
+}
+
+.infobox__cta__discount {
+    margin: 0em;
+    padding: 0em;
+    font-size: smaller;
+}
+
+.button {
+    text-decoration: none;
+    color:dodgerblue;
+    font-size: small;
+    padding: 0.7em 1em;
+    border: 3px solid dodgerblue;
+    font-weight: bold;
+}
+
+.button:hover {
+    border-color: white;
+}
+
+.infobox__footer {
+    display: flex;
+    justify-content: space-between;
+}
